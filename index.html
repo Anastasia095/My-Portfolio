@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="util/imageStyle.css">
     <title>Portfolio</title>
@@ -20,6 +21,9 @@
                 <a href="#contact_me">Contact Me</a>
             </li>
             <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
                 <a href="https://github.com/Anastasia095" target="_blank">Github</a>
             </li>
         </ul>
@@ -27,48 +31,48 @@
     <section class="hero">
         <img class="coffee" src="assets/images/coffee.png">
         <div class="subtitle">
-            Turning Coffee  Into Code
+            Turning Coffee Into Code
         </div>
     </section>
     <div class="grid-container">
         <div class="grid-item column1">
-           <h2>About Me:</h2> 
-           <img class="avatar" src="assets/images/cat2.jpg">
+            <h2>About Me:</h2>
+            <img class="avatar" src="assets/images/cat2.jpg">
         </div>
         <div class="grid-item column2">
             <p>
-                Hello! My name is Anastasia Tarasenko, I'm a computer science student at Miami Dade College and coding bootcamp student at UCF. I'm passionate about coding and excited to learn new things!
+                Hello! My name is Anastasia Tarasenko, I'm a computer science student at Miami Dade College and coding
+                bootcamp student at UCF. I'm passionate about coding and excited to learn new things!
             </p>
         </div>
         <div class="grid-item column1">
-           <h2>
-            Projects:
-           </h2> 
+            <h2 id="projects">
+                Projects:
+            </h2>
             <img class="cat" src="assets/images/cat.webp">
-            </div>
+        </div>
         <div class="grid-item column2">
             <div class="container2">
-                <!-- <img class="cover" src="assets/images/work2.jpg"
-                    onclick="window.open('https://anastasia095.github.io/Date-Night/','_blank')"> -->
-
-                    <div class="container">
-                        <div class="box">
-                          <img src="assets/images/work.png">
-                          <span>CSS Snippet</span>
-                        </div>
-                        <div class="box">
-                          <img src="assets/images/image2.jpg">
-                          <span>Date Night</span>
-                        </div>
-                        <div class="box">
-                          <img src="https://source.unsplash.com/1000x804">
-                          <span>Sample</span>
-                        </div>
-                        <div class="box">
-                          <img src="https://source.unsplash.com/1000x806">
-                          <span>Sample</span>
-                        </div>
-                      </div>
+                <div class="container">
+                    <div class="box pointer"
+                        onclick="window.open('https://anastasia095.github.io/mini-project-2/','_blank')">
+                        <img src="assets/images/work.png">
+                        <span>CSS Snippet</span>
+                    </div>
+                    <div class="box pointer"
+                        onclick="window.open('https://anastasia095.github.io/Date-Night/','_blank')">
+                        <img src="assets/images/image2.jpg">
+                        <span>Date Night</span>
+                    </div>
+                    <div class="box pointer">
+                        <img src="https://source.unsplash.com/1000x804">
+                        <span>Sample</span>
+                    </div>
+                    <div class="box pointer">
+                        <img src="https://source.unsplash.com/1000x806">
+                        <span>Sample</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -80,7 +84,7 @@
         <button class="contact">
             <a href="https://www.linkedin.com/in/anastasia-tarasenko-382293172/" target="_blank">Linkedin</a>
         </button>
-        <button class="contact">anastas.tarasenko001@mymdc.net</button>
+        <button class="contact"><a href="mailto:email">anastas.tarasenko001@mymdc.net</a></button>
     </footer>
     <script src="hero/coffee.js"></script>
 </body>
