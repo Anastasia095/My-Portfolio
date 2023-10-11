@@ -9,7 +9,7 @@ nav {
   padding: 1%;
   text-align: right;
   min-height: 2%;
-  background-color: #FF5733; /* Updated background color */
+  background-color: #432D2D; /* Updated background color */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Added shadow */
 }
 
@@ -39,7 +39,7 @@ h2 {
   font-family: 'Press Start 2P', cursive;
   padding: 1%;
   display: flex;
-  background-color: #FF5733; /* Updated background color */
+  background-color: #432D2D; /* Updated background color */
   height: 150px;
   color: #FFF; /* White text */
   text-align: center;
@@ -77,31 +77,53 @@ h2 {
   width: 65%;
 }
 
+/* Footer styles */
 footer {
-  display: flex;
-  flex-wrap: wrap;
-  border-top: 1px solid #FF5733; /* Added border */
-  bottom: 0;
-  margin: 0;
-  justify-content: center;
+  background-color: #432D2D;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
   text-align: center;
-  padding: 3% 0;
-  width: 100%;
-  background-color: #FFF; /* White background */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Added shadow */
 }
 
-footer a {
-  color: #FF5733; /* Updated link color */
-  font-weight: bold; /* Bolder text */
-  text-decoration: none;
-  margin: 0 10px; /* Added margin between links */
+footer h3 {
+  font-size: 24px;
 }
 
-footer h2 {
-  width: 100%;
-  margin: 0;
+ul {
+  list-style: none;
   padding: 0;
+}
+
+ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0;
+}
+
+p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  ul li {
+      display: block;
+      margin: 5px 0;
+  }
 }
 
 .grid-container {
